@@ -8,15 +8,16 @@
 }
 
 /* font for nav bar */
-/* *{
+*{
    margin: 0px;
    padding: 0px;
   box-sizing: border-box;
-}  */
+} 
 .header {
   background-image: url("../Assets/Hero-bg.png");
 }
 .logo {
+  margin-top: 30px;
   font-family: "Inter", sans-serif;
   font-size: 34px;
   font-weight: black;
@@ -32,6 +33,7 @@ nav{
   margin-right: 150px;
 }
 .btn-primary {
+  margin-top: 30px;
   width: 150px;
   height: 48px;
   background-color: #4E47FF;
@@ -70,6 +72,7 @@ font-weight: bold;
 color: #252432;
 }
 .action-description {
+  margin-top: 30px;
   font-size: 24px;
   color: #252432;
 }
