@@ -1,6 +1,8 @@
 /* font for full body */
 
-
+body {
+  
+}
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -39,7 +41,7 @@ nav{
   background-color: #4E47FF;
   border: none;
   color: #FFFFFF;
-  border-radius: 15px;
+  border-radius: 10px;
   gap: 16px;
   /* margin-top: 20px; */
 }
@@ -99,7 +101,7 @@ padding-top: 50px;
 padding-bottom: 50px;
 padding-left: 80px;
 padding-right: 80px;
-margin-top: 120px;
+  margin-top: 120px;
   margin-bottom: 120px;
   margin-left: 300px;
   margin-right: 300px;
@@ -125,4 +127,75 @@ font-family: "Inter", sans-serif;
   color: #474747;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* touch-area */
+
+.touch-all {
+  background-image: linear-gradient(to right, #0096e608,#f5f6fa);
+}
+
+.touch {
+display: flex;
+/* margin-top: 30px; */
+padding-top: 92px;
+padding-bottom: 14px;
+padding-left: 150px;
+/* padding-right: 150px; */
+
+
+
+}
+.touch-title {
+margin-top: 30px;
+font-size: 97px;
+font-weight: bold;
+}
+.touch-form {
+margin-left: 500px;
+margin-right: 150px;
+}
+.email {
+  display: block;
+}
+.email-ip {
+  display: block;
+  width: 497px;
+  height: 70px;
+}
+.name-ip {
+  display: block;
+  width: 497px;
+  height: 70px;
+}
+.message-ip {
+  display: block;
+  width: 497px;
+  height: 135px;
+  resize: none;
+}
+.ip {
+color: #FFFFFF;
+border-radius: 10px;
+border: 1px solid #FFFFFF;
+}
+input::placeholder {
+  color: gray;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 32px;
+  padding-right: 380px;
+}
+textarea::placeholder {
+  color: #999;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 85px;
+  padding-left: 32px;
+  padding-right: 257px;
+}
+
+.get {
+  width: 497px;
 }
